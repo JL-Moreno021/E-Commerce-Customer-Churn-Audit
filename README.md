@@ -36,7 +36,7 @@
 
 >>>---
 
-##### **_Findings_**
+#### **_Findings_**
 >>>---
 > **_Age_**<br>
     - have min value of `-10`
@@ -51,7 +51,7 @@
     - have min value of `-10`
     - have big outlier
 >>>---
-##### **_Process_**<br>
+#### **_Process_**<br>
 >>---
 Convert all non-positive values in `Age`, `Customer Service Calls`, and `Monthly Spend` into `nan`
 
