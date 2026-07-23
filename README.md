@@ -36,11 +36,11 @@
 
 >>---
 
-> **_Findings_**
+**_Findings_**
 >>---
 >> **_Age_**
->>>- have min value of `-10`
->>>- have big outlier
+    - have min value of `-10`
+    - have big outlier
 <br>
 
 >> **_Customer Service Calls_**
