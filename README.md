@@ -62,30 +62,32 @@ Convert all non-positive values in `Age`, `Customer Service Calls`, and `Monthly
     - Use the second highest age as the maximum age
     - nullify outlier age (can be an error)
 
+> **_Monthly Spend Outlier_**<br>
+    - Check for the second highest monthly spending value
+
+> **_Process_**<br>
+    - Use the second highest monthly spending value as the maximum value
+    - nullify outliers (can be an error)
+
 <hr>
 
-**_Numeric Data Types_**<br>
->- Use describe() to view invalid observations
-    - Invalid numeric values
-    - Duplicate values on unique field
+#### **_String Data Types_**<br>
+>- Use `set()` to view unique observations and to identify typographical errors
+    - Duplicate
+    - Typographical Errors
+<hr>
 
 >>>---
 
-**_Findings_**
+#### **_Findings_**
 >>>---
-> **_Age_**<br>
-    - have min value of `-10`
-    - have big outlier
+> **_Region_**<br>
+    - Some values are not capitalized and is a duplicate
 <br>
 
-> **_Customer Service Calls_**<br>
+> **_Subscription Plan_**<br>
     - have min value of `-1`
-<br>
-
-> **_Monthly Spend_**<br>
-    - have min value of `-10`
-    - have big outlier
->>>>---
-**_Process_**<br>
+>>>---
+#### **_Process_**<br>
 >>---
-Convert all non-positive values in `Age`, `Customer Service Calls`, and `Monthly Spend` into `nan`
+Convert all `Region` and `Subscription Plan` to _Capitalized_ format
