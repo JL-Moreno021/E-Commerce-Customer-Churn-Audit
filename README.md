@@ -3,8 +3,8 @@
     - Synthetix E-Commerce: Behavioral Churn Dataset<br>
     - This dataset represents a simulated e-commerce environment designed to challenge data scientists in the areas of data cleaning, exploratory data analysis (EDA), and predictive modeling. It contains a mix of demographic, behavioral, and transactional data for 10,300 customers.
 
-<div class='alert alert-block alert-warning'><b>This dataset was synthetically generated and may not reflect real-world data.<b></div>
-
+**_Note:_** This dataset represents a simulated e-commerce environment designed to challenge data scientists in the areas of data cleaning, exploratory data analysis (EDA), and predictive modeling. It contains a mix of demographic, behavioral, and transactional data for 10,300 customers.
+<br>
 **_Publisher:_** [Waddah Ali](https://www.kaggle.com/waddahali)
 
 ## Dataset Overview
@@ -27,13 +27,15 @@
 ## Data Cleaning Overview
 
 ### Data Observations Checking
-<hr>
+>>---
 
 **_Numeric Data Types_**<br>
-    - Use describe() to view invalid observations
->- Invalid numeric values
->- Duplicate values on unique field
+>- Use describe() to view invalid observations
+    - Invalid numeric values
+    - Duplicate values on unique field
+
 >>---
+
 > **_Findings_**
 >>---
 >> **_Age_**
