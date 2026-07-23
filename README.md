@@ -55,10 +55,10 @@
 >>---
 Convert all non-positive values in `Age`, `Customer Service Calls`, and `Monthly Spend` into `nan`
 
-**_Age Outlier_**<br>
+> **_Age Outlier_**<br>
 - Check for the second highest age
 
-**_Process_**<br>
+> **_Process_**<br>
 - Use the second highest age as the maximum age
 - nullify outlier age (can be an error)
 
