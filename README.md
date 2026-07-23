@@ -29,14 +29,14 @@
 ### Data Observations Checking
 >>---
 
-**_Numeric Data Types_**<br>
+#### **_Numeric Data Types_**<br>
 >- Use describe() to view invalid observations
     - Invalid numeric values
     - Duplicate values on unique field
 
 >>>---
 
-**_Findings_**
+##### **_Findings_**
 >>>---
 > **_Age_**<br>
     - have min value of `-10`
@@ -50,8 +50,8 @@
 > **_Monthly Spend_**<br>
     - have min value of `-10`
     - have big outlier
->>>>---
-**_Process_**<br>
+>>>---
+##### **_Process_**<br>
 >>---
 Convert all non-positive values in `Age`, `Customer Service Calls`, and `Monthly Spend` into `nan`
 
