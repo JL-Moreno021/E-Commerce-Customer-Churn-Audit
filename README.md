@@ -43,11 +43,11 @@
     - have big outlier
 <br>
 
-> **_Customer Service Calls_**
+> **_Customer Service Calls_**<br>
     - have min value of `-1`
 <br>
 
-> **_Monthly Spend_**
+> **_Monthly Spend_**<br>
     - have min value of `-10`
     - have big outlier
 <hr>
