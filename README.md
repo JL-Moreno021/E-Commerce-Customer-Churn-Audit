@@ -38,16 +38,16 @@
 
 **_Findings_**
 >>---
->> **_Age_**<br>
+> **_Age_**<br>
     - have min value of `-10`
     - have big outlier
 <br>
 
->> **_Customer Service Calls_**
->>>- have min value of `-1`
+> **_Customer Service Calls_**
+    - have min value of `-1`
 <br>
 
->> **_Monthly Spend_**
->>>- have min value of `-10`
->>>- have big outlier
+> **_Monthly Spend_**
+    - have min value of `-10`
+    - have big outlier
 <hr>
