@@ -50,4 +50,42 @@
 > **_Monthly Spend_**<br>
     - have min value of `-10`
     - have big outlier
+>>>>---
+**_Process_**<br>
+>>---
+Convert all non-positive values in `Age`, `Customer Service Calls`, and `Monthly Spend` into `nan`
+
+**_Age Outlier_**<br>
+- Check for the second highest age
+
+**_Process_**<br>
+- Use the second highest age as the maximum age
+- nullify outlier age (can be an error)
+
 <hr>
+
+**_Numeric Data Types_**<br>
+>- Use describe() to view invalid observations
+    - Invalid numeric values
+    - Duplicate values on unique field
+
+>>>---
+
+**_Findings_**
+>>>---
+> **_Age_**<br>
+    - have min value of `-10`
+    - have big outlier
+<br>
+
+> **_Customer Service Calls_**<br>
+    - have min value of `-1`
+<br>
+
+> **_Monthly Spend_**<br>
+    - have min value of `-10`
+    - have big outlier
+>>>>---
+**_Process_**<br>
+>>---
+Convert all non-positive values in `Age`, `Customer Service Calls`, and `Monthly Spend` into `nan`
